@@ -13,3 +13,23 @@ body {
     margin: 4px; 
     border: 5px solid rgb(0, 0, 0); 
 }
+
+
+/*
+Source - https://stackoverflow.com/a/32122011
+Posted by Michael Benjamin, modified by community. See post 'Timeline' for change history
+Retrieved 2026-05-29, License - CC BY-SA 3.0
+*/
+
+#container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: orange;
+}
+#container > div {
+  width: 340px;
+  height: 340px;
+  border: 2px solid black;
+}
